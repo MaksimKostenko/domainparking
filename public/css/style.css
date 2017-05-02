@@ -1,0 +1,157 @@
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    font-family: "Times New Roman", Times, serif;
+}
+
+hr {
+    border: none;
+    background-color: 	#4169E1;
+    height: 1px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    float: left;
+    font-size: 25px;
+}
+.link_address {
+    font-size: 14px;
+    opacity: 0.5;
+}
+.description{
+    font-size: 20px;
+}
+.link_item{
+    padding-bottom: 15px;
+}
+.link_item * {
+    margin: 0;
+    padding: 0;
+}
+.links a {
+    color:	#4169E1;
+}
+.window {
+    padding: 30px 15px;
+    width: 1020px;
+    margin: 70px auto 130px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.related-links {
+    margin-right: 55px;
+    float: left;
+    font-size: 18px;
+
+}
+
+.related-links a {
+    color: 	#4169E1;
+    text-decoration: none;
+}
+
+
+.opacity{
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.leftBanner {
+    float: right;
+}
+
+.bottomBanner {
+    position: relative;
+    left: 170px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: 	#4169E1;
+    border: none;
+    color: white;
+    padding: 14px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.send_button{
+    background-color: 	#4169E1;
+    border: none;
+    color: white;
+}
+
+.form_window{
+    width:340px;
+    margin: 0 auto;
+    background-color:#fff;
+    position:relative;
+    top:160px;
+}
+.form_title{
+    padding-top: 20px;
+}
+form {
+    padding: 20px;
+}
+.close_icon{
+    float:right;
+    opacity: 0.5;
+}
+input {
+
+    width:  300px;
+    height: 35px;
+    font-size: 20px;
+}
+.modal-mask {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .3s ease;
+}
+.error {
+    color: red;
+    font-size:18px;
+    float:left;
+}
+.success{
+    position: fixed;
+    z-index:5;
+    background-color:#fff;
+    width:  340px;
+    text-align: center;
+}
+.success_mask{
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .3s ease;
+}

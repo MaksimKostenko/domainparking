@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="domain_parking@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="domain_parking">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="auth"/>
+    <schema id="4" parent="1" name="blog"/>
+    <schema id="5" parent="1" name="corporative_site"/>
+    <schema id="6" parent="1" name="guestbook"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="lab10"/>
+    <schema id="9" parent="1" name="landing_page"/>
+    <schema id="10" parent="1" name="mydb"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="publication"/>
+    <schema id="14" parent="1" name="socialnet"/>
+    <schema id="15" parent="1" name="svc"/>
+    <schema id="16" parent="1" name="sys"/>
+    <schema id="17" parent="1" name="test"/>
+  </database-model>
+</dataSource>
